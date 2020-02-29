@@ -1,0 +1,161 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sofia Pro';
+}
+
+div,
+textarea {
+  font-family: 'TTCommons';
+}
+
+.roam-block-container {
+  max-width: 1000px;
+}
+.roam-block {
+  max-width: 850px;
+}
+
+.kanban-board {
+  background-color: #fff;
+}
+
+.kanban-card {
+  background-color: white;
+  margin: 8px;
+  box-shadow: 0px 1px 2px #9eb3c0;
+  padding: 10px;
+  border-radius: 2px;
+  line-height: 1.3em;
+}
+
+.kanban-title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+.kanban-column {
+  background-color: #e4edf2;
+  margin: 0px 4px 0px 4px;
+  padding: 4px;
+  min-width: 200px;
+  border-radius: 3px;
+}
+
+.rm-block-ref {
+  border-bottom: none;
+  font-size: 1em;
+  padding: 4px;
+  color: #697098;
+}
+
+.rm-block-ref:hover {
+  background-color: #697098;
+  color: #011627;
+}
+
+.checkmark {
+  background: #fff;
+}
+.check-container input:checked ~ .checkmark {
+  background: #2db4eb;
+}
+.check-container input:checked ~ .checkmark:after {
+  border-color: #fff;
+}
+
+.rm-level3 {
+  color: #8390b2;
+}
+
+.rm-page-ref {
+  color: #7e57c2cc;
+}
+
+.rm-page-ref-link-color {
+  color: #ffa7c4;
+}
+
+a {
+  color: #64b5f6;
+}
+
+.intercom-app,
+.intercom-launcher-frame,
+#intercom-container {
+  display: none !important;
+}
+
+.roam-body {
+  background-color: #011627;
+}
+
+.roam-topbar {
+  background-color: #011627;
+}
+
+.roam-body-main {
+  background-color: #011627;
+  color: #fff;
+}
+
+.roam-body .roam-app h1 {
+  color: #fff;
+}
+
+#right-sidebar div {
+  background-color: #2e3250;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+  background-color: #2e3250;
+  border-right: 1px #051e33 solid;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .starred-pages-wrapper,
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .starred-pages-wrapper
+  .starred-pages
+  .page,
+.roam-body .roam-app .roam-sidebar-container > * {
+  opacity: 0.9;
+  color: #fff;
+}
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .starred-pages-wrapper
+  .starred-pages
+  .page:hover,
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .log-button:hover {
+  background: #011627;
+  color: white;
+  opacity: 0.9;
+}
+#buffer.tall {
+  height: calc(100vh - 50px) !important;
+}
+.check-container {
+  padding-right: 4px;
+}
+
+.rm-reference-item {
+  background-color: #011627;
+}
