@@ -167,3 +167,8 @@ a {
 .rm-reference-item {
   background-color: #011627;
 }
+
+.block-highlight-blue,
+#right-sidebar .block-highlight-blue {
+  background-color: #a599e9;
+}
