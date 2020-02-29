@@ -19,6 +19,14 @@ textarea {
   max-width: 850px;
 }
 
+.bp3-elevation-3 {
+  background-color: #697098 !important;
+}
+
+.bp3-elevation-3 > div:hover {
+  background-color: #011627;
+}
+
 .kanban-board {
   background-color: #fff;
 }
