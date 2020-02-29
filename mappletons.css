@@ -1,15 +1,21 @@
+/*  Make sure you have the fonts Lato and Open Sans installed locally on your machine.
+They're free to download from Google:
+
+https://fonts.google.com/specimen/Lato
+https://fonts.google.com/specimen/Open+Sans  */
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sofia Pro';
+  font-family: 'Lato';
 }
 
 div,
 textarea {
-  font-family: 'TTCommons';
+  font-family: 'Open Sans';
 }
 
 .roam-block-container {
