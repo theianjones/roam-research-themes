@@ -11,4 +11,4 @@ Themes currently available:
 
 You want to be sure to enable the styles only on htts://roamresearch.com.
 
-[stylus](./images/01.png)
+![stylus](./images/01.png)
