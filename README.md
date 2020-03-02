@@ -3,9 +3,9 @@
 Themes currently available:
 
 - [mappletons](./mappletons.css) (light theme)
-  ![](./images/mappletons-screenshot.png)
+  ![](./images/mappletons_screenshot.png)
 - [night owlish](./night-owl-ish.css) (dark theme)
-  ![](./images/night-owlish-screenshot.png)
+  ![](./images/night_owlish_screenshot.png)
 
 ## Use Stylus Extension to Override Styles
 
