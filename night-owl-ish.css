@@ -16,7 +16,6 @@ h4,
 h5,
 h6 {
   font-family: 'Lato';
-
 }
 
 div,
@@ -111,11 +110,13 @@ a {
   display: none !important;
 }
 
-.roam-body {
-  background-color: #011627;
+.rm-reference-item div {
+  background-color: #2e3250;
 }
 
-.roam-topbar {
+#right-sidebar div .rm-reference-item div,
+.roam-topbar,
+.roam-body {
   background-color: #011627;
 }
 
