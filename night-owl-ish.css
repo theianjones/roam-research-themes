@@ -1,15 +1,28 @@
+/*  Make sure you have the fonts Lato and Dank Mono installed locally on your machine.
+Lato is free to download from Google:
+https://fonts.google.com/specimen/Lato
+
+Dank Mono is available for purchase:
+https://dank.sh/  
+
+I reccomend Open Sans if you dont want to purchase Dank Mono:
+https://fonts.google.com/specimen/Open+Sans
+*/
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sofia Pro';
+  font-family: 'Lato';
+
 }
 
 div,
 textarea {
-  font-family: 'TTCommons';
+  font-family: 'Dank Mono';
+  font-size: 1.01em;
 }
 
 .roam-block-container {
