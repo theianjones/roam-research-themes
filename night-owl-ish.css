@@ -355,13 +355,14 @@ a {
 }
 
 .cm-variable {
-    color: #fded74;
+    color: rgb(214, 222, 235);
 }
+
 .cm-s-default .cm-variable-2{
-    color:#05a
+    color: rgb(214, 222, 235);
 }
 .cm-s-default .cm-variable-3,.cm-s-default .cm-type{
-    color:#085
+    color: rgb(214, 222, 235);
 }
 .cm-s-default .cm-comment{
     color:#a50
