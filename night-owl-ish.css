@@ -65,6 +65,7 @@ textarea {
   border-radius: 3px;
 }
 
+
 .rm-block-ref {
   border-bottom: none;
   font-size: 1em;
@@ -110,7 +111,8 @@ a {
 }
 
 .rm-reference-item div {
-  background-color: #2e3250;
+      background-color: #2e3250;
+
 }
 
 #right-sidebar div .rm-reference-item div,
@@ -182,6 +184,31 @@ a {
 }
 
 .block-highlight-blue,
-#right-sidebar .block-highlight-blue {
+#roam-right-sidebar-content div .block-highlight-blue div {
   background-color: #a599e9;
+}
+
+.kanban-board {
+    background: #011627;
+    color: white;
+}
+
+.kanban-column {
+    background-color: #2e3250;
+
+}
+.kanban-card{
+    color: #011627;
+}
+
+/* highlights */
+
+.roam-highlight {
+    background-color: #a599e9;
+}
+
+/* reactions */
+
+.rm-emoji-button {
+    background-color: #697098 !important;
 }
