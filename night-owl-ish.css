@@ -29,6 +29,10 @@ textarea {
   max-width: 850px;
 }
 
+.bp3-button.bp3-minimal {
+  color: #ffa7c4;
+}
+
 .bp3-elevation-3 {
   background-color: #697098 !important;
 }
