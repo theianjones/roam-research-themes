@@ -21,7 +21,6 @@ textarea {
 .roam-block-container {
     max-width: 1000px;
 }
-
 .roam-block {
     max-width: 850px;
 }
@@ -33,6 +32,7 @@ textarea {
 }
 .block-border-left {
     border-left: 1px solid #fff;
+
 }
 .kanban-board {
     background-color: #fff;

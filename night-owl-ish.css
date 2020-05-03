@@ -25,8 +25,16 @@ textarea {
 .roam-block-container {
   max-width: 1000px;
 }
-.roam-block {
+.roam-block, .rm-block-text {
   max-width: 850px;
+}
+
+.bp3-button.bp3-minimal {
+  color: #ffa7c4;
+}
+
+.bp3-button.bp3-minimal:hover {
+  color: #ffa7c4;
 }
 
 .bp3-elevation-3 {
