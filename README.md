@@ -1,6 +1,6 @@
 # Roam Research Themes
 
-Themes currently available:
+## Themes currently available:
 
 - [mappletons](./mappletons.css) (light theme)
   ![](./images/mappletons_screenshot_1.png)
