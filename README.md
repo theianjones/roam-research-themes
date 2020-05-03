@@ -3,7 +3,8 @@
 Themes currently available:
 
 - [mappletons](./mappletons.css) (light theme)
-  ![](./images/mappletons_screenshot.png)
+  ![](./images/mappletons_screenshot_1.png)
+  ![](./images/mappletons_screenshot_2.png)
 - [night owlish](./night-owl-ish.css) (dark theme)
   ![](./images/night_owlish_screenshot.png)
 
