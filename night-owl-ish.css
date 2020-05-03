@@ -25,7 +25,7 @@ textarea {
 .roam-block-container {
   max-width: 1000px;
 }
-.roam-block {
+.roam-block, .rm-block-text {
   max-width: 850px;
 }
 
