@@ -17,6 +17,7 @@ div,
 textarea {
   font-family: 'Open Sans';
 }
+
 .roam-block-container {
     max-width: 1000px;
 }
@@ -59,13 +60,13 @@ textarea {
 }
 
 div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
-    font-size: 14px !important;
+    font-size: 14px;
     opacity: 80%;
     letter-spacing: 0.04em;
 }
 
 div.roam-sidebar-container.noselect > div > div {
-    font-size: 14px !important;
+    font-size: 14px;
     letter-spacing: 0.03em;
     
 }
@@ -183,7 +184,7 @@ a {
 .intercom-app,
 .intercom-launcher-frame,
 #intercom-container {
-    display: none !important;
+    display: none;
 }
 .roam-body .roam-app .roam-sidebar-container {
     background-color: white;
@@ -201,7 +202,7 @@ a {
     opacity: 100%;
 }
 #buffer.tall {
-    height: calc(100vh - 50px) !important;
+    height: calc(100vh - 50px);
 }
 .check-container {
     padding-right: 4px;
@@ -222,16 +223,16 @@ span.rm-page-ref {
 
 /* Custom data tags */
 span.rm-page-ref[data-tag="TwitterPost"] {
-    background: #81D5ED !important;
-    color: white !important;
+    background: #81D5ED;
+    color: white;
     padding: 3px 7px;
     line-height: 2em;
     font-weight: 500;
 }
 
 span.rm-page-ref[data-tag="Literature Notes"] {
-    background: #9769FF !important;
-    color: white !important;
+    background: #9769FF;
+    color: white;
     padding: 3px 7px;
     font-weight: 500;
     line-height: 2em;
@@ -239,22 +240,22 @@ span.rm-page-ref[data-tag="Literature Notes"] {
 
 
 span.rm-page-ref[data-tag="Evergreens"] {
-    background: #0DBAC6 !important;
-    color: #fff !important;
+    background: #0DBAC6;
+    color: #fff;
     padding: 3px 8px;
     line-height: 2em;
     font-weight: 500;
 }
 
 span.rm-page-ref[data-tag="Seedling"] {
-    color: #0dbac6 !important;
+    color: #0dbac6;
     padding: 3px 3px;
     font-weight: 600;
     line-height: 1.4em;
 }
 
 span.rm-page-ref[data-tag="Idea Bank"] {
-    color: #FCB815 !important;
+    color: #FCB815;
     padding: 3px 4px;
     font-weight: 700;
     line-height: 1.4em;
@@ -318,7 +319,7 @@ span.rm-page-ref[data-tag="Waiting"] {
 }
 
 span.rm-page-ref[data-tag="Researching"] {
-    background: #FF9D66 !important;
+    background: #FF9D66;
     color: #fff;
     padding: 3px 7px;
     line-height: 2em;
@@ -326,8 +327,8 @@ span.rm-page-ref[data-tag="Researching"] {
 }
 
 span.rm-page-ref[data-tag="Synthesising"] {
-    background: #FC766F !important;
-    color: #fff !important;
+    background: #FC766F;
+    color: #fff;
     padding: 3px 7px;
     line-height: 2em;
     font-weight: 500;
@@ -335,8 +336,8 @@ span.rm-page-ref[data-tag="Synthesising"] {
 
 
 span.rm-page-ref[data-tag="Alive"] {
-    background: #EE5F85 !important;
-    color: #fff !important;
+    background: #EE5F85;
+    color: #fff;
     padding: 3px 7px;
     line-height: 2em;
     font-weight: 500;
