@@ -1,4 +1,4 @@
-/* Red Pomodoro */
+/* ------------- Red Pomodoro ------------- */
 .rm-pomodoro {
   background: #fff !important;
   color: #ff4747 !important;
@@ -9,7 +9,11 @@
   border: 1px solid #ff474770;
 }
 
-/* White Pomodoro */
+.rm-pomodoro::first-letter {
+  margin-right: 8px;
+}
+
+/* ------------- White Pomodoro ------------- */
 .rm-pomodoro {
   background: #ff6956 !important;
   color: #fff !important;
@@ -18,4 +22,8 @@
   font-weight: 600;
   border-radius: 2em;
   border: 1px solid #ed5845;
+}
+
+.rm-pomodoro::first-letter {
+  margin-right: 8px;
 }
