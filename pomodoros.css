@@ -1,0 +1,21 @@
+/* Red Pomodoro */
+.rm-pomodoro {
+  background: #fff !important;
+  color: #ff4747 !important;
+  padding: 4px 14px;
+  line-height: 2em;
+  font-weight: 600;
+  border-radius: 2em;
+  border: 1px solid #ff474770;
+}
+
+/* White Pomodoro */
+.rm-pomodoro {
+  background: #ff6956 !important;
+  color: #fff !important;
+  padding: 4px 14px;
+  line-height: 2em;
+  font-weight: 600;
+  border-radius: 2em;
+  border: 1px solid #ed5845;
+}
