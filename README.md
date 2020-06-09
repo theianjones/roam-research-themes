@@ -3,16 +3,22 @@
 ## Themes currently available:
 
 - [Zenithdecker](./zenithdecker.css)
-
- A mashup of Maggie's "Leyendecker" theme and [Azlen Elza's "Zenith" theme](https://github.com/azlen/roam-themes)
+  A mashup of Maggie's "Leyendecker" theme and [Azlen Elza's "Zenith" theme](https://github.com/azlen/roam-themes)
  
  ![](./images/zenithdecker.png) 
 
+---
+
 - [Mappletons](./mappletons.css) (light theme)
+
   ![](./images/mappletons_screenshot_1.png)
   ![](./images/mappletons_screenshot_2.png)
+  
+  
+---
 
-- [night owlish](./night-owl-ish.css) (dark theme)
+- [Night Owlish](./night-owl-ish.css) (dark theme)
+
   ![](./images/night_owlish_screenshot.png)
 
 ## Use Stylus Extension to Override Styles
