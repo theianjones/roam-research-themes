@@ -3,7 +3,9 @@
 ## Themes currently available:
 
 -[Zenithdecker](./zenithdecker.css)
-A mashup of Maggie's "Leyendecker" theme and Azlen Elza's "Zenith" theme
+
+ A mashup of Maggie's "Leyendecker" theme and Azlen Elza's "Zenith" theme
+ 
  ![](./images/zenithdecker.png) 
 
 - [Mappletons](./mappletons.css) (light theme)
