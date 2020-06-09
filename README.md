@@ -2,8 +2,7 @@
 
 ## Themes currently available:
 
-- [Zenithdecker](./zenithdecker.css)
-  A mashup of Maggie's "Leyendecker" theme and [Azlen Elza's "Zenith" theme](https://github.com/azlen/roam-themes)
+- [Zenithdecker](./zenithdecker.css) <br /> A mashup of Maggie's "Leyendecker" theme and [Azlen Elza's "Zenith" theme](https://github.com/azlen/roam-themes)
  
  ![](./images/zenithdecker.png) 
 
