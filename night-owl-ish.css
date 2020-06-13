@@ -108,7 +108,7 @@ textarea {
 }
 
 a {
-  color: #64b5f6;
+  color: #64b5f6 !important;
 }
 
 .intercom-app,
@@ -220,6 +220,11 @@ a {
     background-color: #697098 !important;
 }
 
+/* rows */
+.rm-pages-row:first-of-type,
+.rm-pages-row-highlight {
+    background-color: #2e3250 !important;
+}
 
 
 
