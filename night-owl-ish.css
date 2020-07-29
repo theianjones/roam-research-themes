@@ -230,7 +230,7 @@ a {
 
 .CodeMirror{
     font-family: 'Dank Mono' !important;
-    height:300px;
+    height:auto;
     color:white;
     direction:ltr;
     background: #182026 !important;
