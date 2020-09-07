@@ -5,22 +5,23 @@
   --header-font: "Open Sans", sans-serif;
   --body-font: "Inter", sans-serif;
   --font-size: 1.02em;
-  --bg-color: #eef3f3;
-  --page-color: rgba(255, 255, 255, 0.95);
-  --text-color: #49556f;
-  --light-text-color: #5c7496;
-  --icon-color: #6a76a1;
-  --bullet-color: rgba(0, 0, 0, 0.2);
-  --page-shadow: 0px 6px 10px rgba(43, 45, 47, 0.05);
-  --block-shadow: 0px 2px 4px rgba(90, 99, 104, 0.05);
-  --color-primary: #ec6f35;
-  --color-primary-highlight: #ffdd99b8;
-  --color-primary-contrast: #ffffff;
-  --color-secondary: #8a3cc8;
-  --color-secondary-contrast: #ffffff;
-  --border-color: rgba(0, 0, 0, 0.08);
-  --subtle-border-color: rgba(0, 0, 0, 0.05);
-  --main-background-color: hsl(210, 9%, 98%);
+    --bg-color: #EEF3F3;
+    --page-color: rgba(255, 255, 255, 0.95);
+    --text-color: #49556f;
+    --light-text-color: #5c7496;
+    --icon-color: #6a76a1;
+    /* #5c7080 */
+    --bullet-color: rgba(0, 0, 0, 0.2);
+    --page-shadow: 0px 6px 10px rgba(43, 45, 47, .05);
+    --block-shadow: 0px 2px 4px rgba(90, 99, 104, .05);
+    --color-primary: #EC6F35;
+    --color-primary-highlight: #ffdd99b8;
+    --color-primary-contrast: #FFFFFF;
+    --color-secondary: #8a3cc8;
+    --color-secondary-contrast: #FFFFFF;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(0, 0, 0, 0.05);
+    --main-background-color: hsl(210, 9%, 98%);
   --body-background-color: #ffffff;
   --reference-item-background: hsl(0, 0%, 99%);
 }
@@ -29,7 +30,7 @@
 .roam-sidebar-container {
 
   box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 10px 0px !important;
-  
+
 }
 
 ::selection {
