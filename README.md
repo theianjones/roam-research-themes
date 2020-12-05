@@ -8,7 +8,7 @@
 
 ---
 
-- [Mappletons](./mappletons.css) (light theme)
+- [Leyendecker](./leyendecker.css) (light theme)
 
   ![](./images/mappletons_screenshot_1.png)
   ![](./images/mappletons_screenshot_2.png)
