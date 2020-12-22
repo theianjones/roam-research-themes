@@ -327,6 +327,11 @@ span.rm-page-ref {
     font-weight: 600;
 }
 
+/* Set the background colour of popover tooltips to white */
+.bp3-popover-content {
+  background: var(--bg-color) !important;
+}
+
 
 /* -------------------------- */
 
