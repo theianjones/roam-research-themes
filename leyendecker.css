@@ -19,7 +19,7 @@ https://fonts.google.com/featured/Plex
     --color-primary: #ec6f35;
     --color-primary-light: #ff913c;
     --color-primary-highlight: #fcc1786d;
-    --color-secondary: #8a3cc8;
+    --color-secondary: #7056F2;
     --color-subtle-border: #dbe4e8;
 }
 
@@ -282,12 +282,13 @@ span.bp3-icon-small.bp3-icon-star {
 .rm-page-ref {
     color: #9aabd0;
 }
-.rm-page-ref-link-color {
+.rm-page-ref--link {
     color: var(--color-primary);
     font-weight: 600;
 }
 a {
     color: var(--color-secondary);
+    font-weight: 600
 }
 .intercom-app, .intercom-launcher-frame, #intercom-container {
     display: none;
