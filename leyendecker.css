@@ -320,7 +320,6 @@ color: white;
 
 .rm-page-ref--tag {
   color: var(--page-tag-color);
-  opacity: 80%;
 }
 .rm-page-ref--link {
   color: var(--color-primary);
