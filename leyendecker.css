@@ -137,6 +137,9 @@ code {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
   padding: 6px;
 }
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
+    background-color: white;
+}
 div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
   font-size: 14px;
   opacity: 80%;
