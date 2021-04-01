@@ -29,7 +29,6 @@ body, #app {
 }
 .roam-article {
   padding-right: 10px !important;
-  max-width: 740px;
   padding-left: 20px !important;
 }
 .roam-article > div {
@@ -47,7 +46,6 @@ body, #app {
   width: auto !important;
   position: relative !important;
   padding-left: 50px;
-  min-width: 600px;
 }
 .roam-main {
   width: unset !important;
@@ -80,9 +78,6 @@ div, textarea {
   font-family: var(--body-font);
   font-size: var(--font-size);
   color: var(--text-color);
-}
-.roam-block-container {
-  max-width: 1000px;
 }
 
 
@@ -155,9 +150,7 @@ div.roam-sidebar-container.noselect > div > div {
 }
 
 .rm-block-text, .roam-block {
-  max-width: 64ch;
   font-size: 1.1em;
-  line-height: 1.6em;
 }
 #right-sidebar > div {
   background-color: white;
@@ -202,7 +195,6 @@ box-sizing: content-box;
   box-shadow: 0px 1px 2px #9eb3c0;
   padding: 10px;
   border-radius: 2px;
-  line-height: 1.3em;
 }
 .kanban-title {
   text-align: center;
@@ -213,7 +205,6 @@ box-sizing: content-box;
   background-color: #e4edf2;
   margin: 0px 4px 0px 4px;
   padding: 4px;
-  min-width: 200px;
   border-radius: 3px;
 }
 .rm-block-ref::before {
