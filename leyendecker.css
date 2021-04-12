@@ -93,6 +93,7 @@ div, textarea {
 .block-highlight-yellow {
   background-color: white;
 }
+
 /* Code Syntax */
 code {
   font-family: var(--code-font);
@@ -179,7 +180,6 @@ box-sizing: content-box;
   border: 4px solid transparent;
   background-color: #E3ECF2;
 }
-
 .rm-bullet.rm-bullet--closed .rm-bullet__inner {
   box-sizing: content-box;
   border: 4px solid #D8E5EE;
@@ -189,6 +189,8 @@ box-sizing: content-box;
 .block-border-left {
   border-left: 1px solid #fff;
 }
+
+/* Kanban */
 .kanban-board {
   background-color: #fff;
 }
@@ -210,6 +212,8 @@ box-sizing: content-box;
   padding: 4px;
   border-radius: 3px;
 }
+
+/* Block references */
 .rm-block-ref::before {
   content:"";
   display: inline-block;
@@ -223,7 +227,6 @@ box-sizing: content-box;
   background: none;
   cursor: pointer;
 }
-
 .rm-block-ref {
   border-bottom: none;
   font-size: 1em;
@@ -235,6 +238,8 @@ box-sizing: content-box;
   font-weight: 800;
   top: -10px;
 }
+
+
 .checkmark {
   background: #fff;
 }
@@ -254,6 +259,8 @@ box-sizing: content-box;
   background-color: #f7f9fb;
   padding: 8px;
 }
+
+/* Headings */
 .rm-level1 div, .rm-level1 textarea {
   font-size: 1.7rem;
   font-weight: 600;
@@ -266,6 +273,7 @@ box-sizing: content-box;
   font-weight: 400;
   font-size: 1.3rem;
 }
+
 a {
  color: var(--color-secondary);
 font-weight: 600;
@@ -301,7 +309,9 @@ span.rm-page-ref {
 .center-proj {
   text-align: center;
 }
-.rm-alias-external, .rm-alias-external:hover {
+
+/* URL links */
+.rm-alias--external, .rm-alias--external:hover {
   font-weight: 600;
 }
 
