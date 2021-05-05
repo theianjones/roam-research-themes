@@ -1,0 +1,396 @@
+
+/****General Font Things*****/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Georgia';
+}
+
+div {
+
+  color: #736c66;
+  line-height: 2;
+  letter-spacing: .05em;
+}
+
+.level2 {
+    font-family: 'Georgia';
+    font-size: 1.5em;
+    letter-spacing: .01em;
+    line-height: 1.3;
+}
+
+rm-level3 {
+    color: #939aae;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.roam-block-container {
+    max-width: 1000px;
+}
+
+.roam-block {
+    line-height: 1.5;
+}
+
+.rm-query {
+    border: 0.5px solid #e4e9ec;
+    border-radius: 5px;
+}
+
+.rm-query .rm-query-title {
+    background-color: #f7f8f8;
+    padding: 0.8em;
+    color: #d1dbe2;
+    font-size: 80%;
+}
+
+.rm-reference-main.rm-query-content {
+    padding: 0.8em;
+}
+
+.rm-reference-main .rm-reference-item .rm-block-text {
+    font-size: 90%;
+}
+
+.rm-ref-page-view-title span {
+    
+}
+
+.rm-reference-main .rm-reference-item .controls {
+    margin-left: -1em;
+}
+
+.rm-ref-page-view {
+    padding: 0.4em 0.2em;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 6px;
+}
+
+div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
+    font-size: 14px;
+    opacity: 80%;
+    letter-spacing: 0.04em;
+}
+
+div.roam-sidebar-container.noselect > div > div {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    
+}
+
+#block-input {
+    background: white;
+}
+
+.roam-body #block-input > span > div {
+    padding: 6px 24px;
+    background: #fff;
+}
+
+span.bp3-icon-small.bp3-icon-star {
+    display: none;
+    visibility: hidden;
+}
+
+.roam-block {
+    max-width: 850px;
+}
+
+#right-sidebar > div {
+    background-color: #fff;
+    border-left: 2px dotted #E6E0C4;
+}
+.rm-page-ref-brackets {
+    display: none;
+}
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #e3e3e3;
+}
+
+.roam-bullet-closed {
+    background-color: #fff;
+    border: 1px solid #f6728099;
+}
+.block-border-left {
+    border-left: 1px solid #fff;
+}
+
+/*****Table Styling******/
+
+.roam-table {
+    background-color: #fff;
+}
+.roam-table td, .roam-table th {
+    text-align: center;
+    min-width: 50px;
+    border: #fff;
+}
+
+/*********Kanban Styling*********/
+
+.kanban-board {
+    background-color: #fff;
+}
+.kanban-card {
+    background-color: white;
+    margin: 8px;
+    box-shadow: 3px 3px 3px #CBC8B6;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 1.3em;
+}
+.kanban-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+}
+.kanban-column {
+    background-color: #E6E0C4;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+    min-width: 200px;
+    border-radius: 3px;
+}
+
+/*******Slider Styling*********/
+
+.bp3-slider-handle {
+    background-color: #c5dbf4;
+    height: 13px;
+    width: 13px;
+}
+
+.bp3-slider-handle .bp3-slider-label {
+    background: #fff;
+    color: #f06;
+}
+.bp3-slider-progress.bp3-intent-primary {
+    background-color: #c5dbf4;
+}
+
+/*****Block Reference*******/
+
+.rm-block-ref::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    border-radius: 40px;
+    height: 10px;
+    background: #fff;
+    margin-right: 5px;
+    content: "🦋"
+}
+.rm-block-ref {
+    border-bottom: none;
+    font-size: 1em;
+    color: #0064ff;
+}
+.rm-block-ref:hover {
+    background: none;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/*****To-Dos********/
+
+.checkmark {
+    background: #fff;
+}
+.check-container input:checked ~ .checkmark {
+    background: #dea6a6;
+}
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
+.rm-reference-item {
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #e4e9ee;
+    margin-right: 8px;
+    flex: 1 1 100%;
+    word-break: break-word;
+    background-color: #f7f9fb;
+    padding: 8px;
+}
+
+
+
+
+/********Hidden Tags********/
+
+  [data-tag="h"]{
+    visibility: hidden;
+}
+         
+[data-tag="h"]::before
+{
+    content:"🍄";
+    color:red;
+    visibility: visible;  
+}
+
+  [data-tag="h"]{
+    visibility: hidden;
+}
+
+
+[data-tag="h"] ~ span:not([data-tag="h"]) {
+    display:none;
+    
+}
+
+[class~="roam-block"]:hover [data-tag="h"] ~ span:not([data-tag="h"]) {
+    display:inline !important;
+}
+
+
+/**********Page Links**********/
+
+.rm-page-ref {
+    color: #cabfb9;
+}
+
+.rm-page-ref-link-color {
+    color: #332616;
+    font-weight: 300;
+    border-bottom: .5px solid #23c9a2;
+    padding-bottom: 2px;
+}
+
+.rm-page-ref-link-color:hover {
+    text-decoration: none;
+    color: #23c9a2;
+    border: none;
+}
+
+/******External Links******/
+
+a {
+    color: #9455e3;
+    font-style: italic;
+}
+
+a:hover{
+    color: #ff81ad;
+}
+.intercom-app,
+.intercom-launcher-frame,
+#intercom-container {
+    display: none;
+}
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #fff;
+    border-right: 1px #eee solid;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container > * {
+    opacity: 80%;
+    box-shadow: none;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background: #fff;
+    color: black;
+    opacity: 100%;
+}
+#buffer.tall {
+    height: calc(100vh - 50px);
+}
+.check-container {
+    padding-right: 4px;
+}
+span.rm-page-ref {
+    border-radius: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.content span.rm-page-ref {
+    padding: 4px 1px 1px;
+    /* required for fixing azo */
+}
+.center-proj {
+    text-align: center;
+}
+
+/********* Footnotes **********/
+/*****To add footnote
+
+:root {
+	counter-reset: reference;    
+}
+
+/* makes look "ref" really tiny. 
+I cannot use "display:none" - because then
+no ::after addition would appear */
+
+[data-tag="ref"]{
+	font-size: 1%;
+	vertical-align: super;
+}
+
+[data-tag="ref"]::after{
+	font-size: small;
+	visibility:visible;
+	counter-increment: reference;                   
+    content: "" counter(reference);
+}
+
+/*hiding following references and embedded blocks */
+[data-tag="ref"] + div,
+[data-tag="ref"] + .rm-block-ref{
+	display:none !important;
+}
+
+/*showing embedded block */
+[data-tag="ref"] + div:hover,
+[data-tag="ref"]:hover + div {
+    display: block !important;
+    background-color: #f4f3f6 !important;
+    color: #000;
+    border-radius: 3px; 
+    position:relative;
+    top: -2px;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/* schowing references */
+[data-tag="ref"] + .rm-block-ref:hover,
+[data-tag="ref"]:hover + .rm-block-ref{
+    display: inline !important;
+    background-color: #f4f3f6;
+    color: #000;
+    border-radius: 3px;
+    margin-left: -4px;
+}
+
+/* adding a fancy pin */
+[data-tag="ref"] + div::before,
+[data-tag="ref"]:hover + div::before, 
+[data-tag="ref"] + .rm-block-ref::before,
+[data-tag="ref"]:hover + .rm-block-ref::before{
+ content: "📌"   ;
+}
+
+
+
+
+/******** Custom data tags ******/
+
+
+span.rm-page-ref[data-tag="Projects"] {
+    background: #9441ba3d;
+    color: #000;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
